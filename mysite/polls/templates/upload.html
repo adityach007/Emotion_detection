@@ -83,7 +83,7 @@ body.bg-image {
 </style>
 </head>
 <body>
-<form method="post" action="" enctype="multipart/form-data">
+<form method="post" action="{% url 'your_view_name' %}" enctype="multipart/form-data">
     {% csrf_token %}
    <div class="search">
       {{ form.as_p }}
