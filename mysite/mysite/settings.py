@@ -70,6 +70,7 @@ TEMPLATES = [
         },
     },
 ]
+CSRF_TRUSTED_ORIGINS = ['https://emotion-detection-m7bn.onrender.com']
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
