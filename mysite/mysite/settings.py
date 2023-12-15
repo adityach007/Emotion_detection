@@ -29,8 +29,7 @@ SECRET_KEY = os.environ.get("Django_key", "changeme")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://emotiondetection-rv10.onrender.com', '127.0.0.1', os.environ.get("IP_address"), os.environ.get("DNS")]
-
+ALLOWED_HOSTS = ['127.0.0.1', os.environ.get("IP_address"), os.environ.get("DNS"), 'emotiondetection-rv10.onrender.com']
 
 # Application definition
 
